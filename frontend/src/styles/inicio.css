@@ -389,6 +389,13 @@
         margin-bottom: 12px;
         background: #fcf8fa;
         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+        transition: scale 0.3 ease,transform 0.3 easy, box-shadow 0.3s ease;
+    }
+
+    .gallery-nails:hover {
+        scale: 1.05;
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     }
 
     .formulario {
