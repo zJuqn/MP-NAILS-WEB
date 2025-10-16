@@ -357,3 +357,36 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
    }
+
+   .gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .gallery img{
+    width: 250px;
+    height: 300px;
+   }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1100px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .gallery-nails {
+        max-width: 300px;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+        margin-bottom: 12px;
+        background: #fcf8fa;
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+    }
